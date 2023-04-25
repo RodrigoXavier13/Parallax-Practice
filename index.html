@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Parallax</title>
+
+    <style type="text/css">
+        /* Configuações padrões*/
+        body,
+        html {
+            margin: 0;
+            font: 16px "Lato", sans-serif;
+            color: #777;
+            height: 100%;
+        }
+
+        .conteudo {
+            color: #777;
+            background-color: white;
+            text-align: justify;
+            padding: 50px 80px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+        }
+
+        /*efeito parallax*/
+        .caixa1,
+        .caixa2,
+        .caixa3,
+        .caixa4 {
+            height: 100%;
+            opacity: 0.8;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        .caixa1 {
+            background-image: url(imagens/imagem1.jpg);
+        }
+
+        .caixa2 {
+            background-image: url(imagens/imagem2.jpg);
+        }
+
+        .caixa3 {
+            background-image: url(imagens/imagem3.jpg);
+        }
+
+        .caixa4 {
+            background-image: url(imagens/imagem4.jpg);
+        }
+
+        .conteudo-titulo {
+            position: absolute;
+            left: 0;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .conteudo-titulo span.titulo {
+            color: #fff;
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="caixa1">
+        <div class="conteudo-titulo">
+            <span class="titulo">Passeio de balões</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ullam praesentium harum illo omnis,
+            aspernatur veniam earum accusamus voluptates nam! Eaque porro blanditiis ea doloremque dolor! Itaque
+            praesentium quis omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis architecto quos
+            alias repellendus, deleniti explicabo, recusandae veniam molestiae sunt ipsum, quas hic. Quisquam alias odio
+            sed illum error ipsam dolorum, eaque in tempore magnam aliquam earum! Voluptatem asperiores reiciendis
+            repellat libero commodi! Sapiente in amet quisquam aliquid, nihil nam perspiciatis nemo facere id explicabo
+            cum, repellendus corporis animi quam, eveniet ea saepe. Eum rerum beatae, delectus voluptates, sint
+            consequuntur facere doloremque, commodi provident mollitia ab. Dolores dignissimos reiciendis eum dicta ab
+            ea doloribus magnam, vero veniam id eos beatae, laudantium autem voluptatum quis porro! Molestiae,
+            blanditiis delectus. Voluptatem, cum eos.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ullam praesentium harum illo omnis,
+            aspernatur veniam earum accusamus voluptates nam! Eaque porro blanditiis ea doloremque dolor! Itaque
+            praesentium quis omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis architecto quos
+            alias repellendus, deleniti explicabo, recusandae veniam molestiae sunt ipsum, quas hic. Quisquam alias odio
+            sed illum error ipsam dolorum, eaque in tempore magnam aliquam earum! Voluptatem asperiores reiciendis
+            repellat libero commodi! Sapiente in amet quisquam aliquid, nihil nam perspiciatis nemo facere id explicabo
+            cum, repellendus corporis animi quam, eveniet ea saepe. Eum rerum beatae, delectus voluptates, sint
+            consequuntur facere doloremque, commodi provident mollitia ab. Dolores dignissimos reiciendis eum dicta ab
+            ea doloribus magnam, vero veniam id eos beatae, laudantium autem voluptatum quis porro! Molestiae,
+            blanditiis delectus. Voluptatem, cum eos.
+        </p>
+    </div>
+
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            <span class="titulo">Pegando a estrada</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ullam praesentium harum illo omnis,
+            aspernatur veniam earum accusamus voluptates nam! Eaque porro blanditiis ea doloremque dolor! Itaque
+            praesentium quis omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis architecto quos
+            alias repellendus, deleniti explicabo, recusandae veniam molestiae sunt ipsum, quas hic. Quisquam alias odio
+            sed illum error ipsam dolorum, eaque in tempore magnam aliquam earum! Voluptatem asperiores reiciendis
+            repellat libero commodi! Sapiente in amet quisquam aliquid, nihil nam perspiciatis nemo facere id explicabo
+            cum, repellendus corporis animi quam, eveniet ea saepe. Eum rerum beatae, delectus voluptates, sint
+            consequuntur facere doloremque, commodi provident mollitia ab. Dolores dignissimos reiciendis eum dicta ab
+            ea doloribus magnam, vero veniam id eos beatae, laudantium autem voluptatum quis porro! Molestiae,
+            blanditiis delectus. Voluptatem, cum eos.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ullam praesentium harum illo omnis,
+            aspernatur veniam earum accusamus voluptates nam! Eaque porro blanditiis ea doloremque dolor! Itaque
+            praesentium quis omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis architecto quos
+            alias repellendus, deleniti explicabo, recusandae veniam molestiae sunt ipsum, quas hic. Quisquam alias odio
+            sed illum error ipsam dolorum, eaque in tempore magnam aliquam earum! Voluptatem asperiores reiciendis
+            repellat libero commodi! Sapiente in amet quisquam aliquid, nihil nam perspiciatis nemo facere id explicabo
+            cum, repellendus corporis animi quam, eveniet ea saepe. Eum rerum beatae, delectus voluptates, sint
+            consequuntur facere doloremque, commodi provident mollitia ab. Dolores dignissimos reiciendis eum dicta ab
+            ea doloribus magnam, vero veniam id eos beatae, laudantium autem voluptatum quis porro! Molestiae,
+            blanditiis delectus. Voluptatem, cum eos.
+        </p>
+    </div>
+
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <span class="titulo">Pôr do sol</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ullam praesentium harum illo omnis,
+            aspernatur veniam earum accusamus voluptates nam! Eaque porro blanditiis ea doloremque dolor! Itaque
+            praesentium quis omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis architecto quos
+            alias repellendus, deleniti explicabo, recusandae veniam molestiae sunt ipsum, quas hic. Quisquam alias odio
+            sed illum error ipsam dolorum, eaque in tempore magnam aliquam earum! Voluptatem asperiores reiciendis
+            repellat libero commodi! Sapiente in amet quisquam aliquid, nihil nam perspiciatis nemo facere id explicabo
+            cum, repellendus corporis animi quam, eveniet ea saepe. Eum rerum beatae, delectus voluptates, sint
+            consequuntur facere doloremque, commodi provident mollitia ab. Dolores dignissimos reiciendis eum dicta ab
+            ea doloribus magnam, vero veniam id eos beatae, laudantium autem voluptatum quis porro! Molestiae,
+            blanditiis delectus. Voluptatem, cum eos.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ullam praesentium harum illo omnis,
+            aspernatur veniam earum accusamus voluptates nam! Eaque porro blanditiis ea doloremque dolor! Itaque
+            praesentium quis omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis architecto quos
+            alias repellendus, deleniti explicabo, recusandae veniam molestiae sunt ipsum, quas hic. Quisquam alias odio
+            sed illum error ipsam dolorum, eaque in tempore magnam aliquam earum! Voluptatem asperiores reiciendis
+            repellat libero commodi! Sapiente in amet quisquam aliquid, nihil nam perspiciatis nemo facere id explicabo
+            cum, repellendus corporis animi quam, eveniet ea saepe. Eum rerum beatae, delectus voluptates, sint
+            consequuntur facere doloremque, commodi provident mollitia ab. Dolores dignissimos reiciendis eum dicta ab
+            ea doloribus magnam, vero veniam id eos beatae, laudantium autem voluptatum quis porro! Molestiae,
+            blanditiis delectus. Voluptatem, cum eos.
+        </p>
+    </div>
+
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <span class="titulo">Montanhas</span>
+        </div>
+    </div>
+</body>
+
+</html>
